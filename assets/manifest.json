@@ -1,0 +1,374 @@
+﻿[
+    {
+        "file":  "home_01.png",
+        "source_page":  "home",
+        "bytes":  36659,
+        "wix_id":  "0320de2d6d0d47f687398a5bcc77e9a7.png"
+    },
+    {
+        "file":  "home_02.jpg",
+        "source_page":  "home",
+        "bytes":  3601260,
+        "wix_id":  "06aa14e580ac457fb0ec42a8cbc3e750.jpg"
+    },
+    {
+        "file":  "home_03.jpg",
+        "source_page":  "home",
+        "bytes":  7851017,
+        "wix_id":  "1dd9e4152e914606b0776a1b449e0727.jpg"
+    },
+    {
+        "file":  "home_04.jpg",
+        "source_page":  "home",
+        "bytes":  3983966,
+        "wix_id":  "4471d01623cf4617b7016ed516a87c88.jpg"
+    },
+    {
+        "file":  "home_05.png",
+        "source_page":  "home",
+        "bytes":  23259,
+        "wix_id":  "8d6893330740455c96d218258a458aa4.png"
+    },
+    {
+        "file":  "home_08.png",
+        "source_page":  "home",
+        "bytes":  3601231,
+        "wix_id":  "cb390c_15cb249d21364b0e82f6e8937f296157~mv2.png"
+    },
+    {
+        "file":  "home_09.webp",
+        "source_page":  "home",
+        "bytes":  20600,
+        "wix_id":  "cb390c_17bc1afe081b41a483fb084d5b58555a~mv2.webp"
+    },
+    {
+        "file":  "home_17.png",
+        "source_page":  "home",
+        "bytes":  585861,
+        "wix_id":  "cb390c_8158818a95fa469daa75b7a311366495~mv2.png"
+    },
+    {
+        "file":  "home_25.jpg",
+        "source_page":  "home",
+        "bytes":  3245134,
+        "wix_id":  "ef1abf182d4b4523b65aa36c5e3ea767.jpg"
+    },
+    {
+        "file":  "home_26.jpg",
+        "source_page":  "home",
+        "bytes":  5873848,
+        "wix_id":  "f92f7b5f059240acb1b3a2641a23566d.jpg"
+    },
+    {
+        "file":  "owners_01.jpg",
+        "source_page":  "owners",
+        "bytes":  7774788,
+        "wix_id":  "11062b_146d1c0069de4c739bdeb6db044ba244~mv2.jpg"
+    },
+    {
+        "file":  "owners_02.jpg",
+        "source_page":  "owners",
+        "bytes":  522482,
+        "wix_id":  "cb390c_b1a9522f1caa447a8761a5aeeaba2d6d~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_01.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  5066486,
+        "wix_id":  "cb390c_00cbe5f07eed4025b2c9a8fc38e689d6~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_02.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  6905018,
+        "wix_id":  "cb390c_08e7b46d6fa7469db64dd33465ec69ad~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_03.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  5865769,
+        "wix_id":  "cb390c_106eca6075ee4423a8860921744385fd~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_04.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  6217150,
+        "wix_id":  "cb390c_10bc3f973ca74378a5182642fefba730~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_05.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  6458028,
+        "wix_id":  "cb390c_11a22d88528c4ac39f547960cb5d0c88~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_06.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  1052585,
+        "wix_id":  "cb390c_16d9ca6b6b7b47ba975f2e34ab44a8d6~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_07.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  5591628,
+        "wix_id":  "cb390c_213b19e2ac0847e492de1c2bf0b97c9f~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_08.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  6680874,
+        "wix_id":  "cb390c_219a7b6d93614770a9f579546c1d2ad7~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_09.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  5535052,
+        "wix_id":  "cb390c_21e9915d0c194b8fb85035454aab1c90~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_10.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  5991126,
+        "wix_id":  "cb390c_28a7099f54424ccab17b479ade4db776~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_11.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  7998297,
+        "wix_id":  "cb390c_30248ec461f246d4ace524a74c6f1ec3~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_12.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  6087546,
+        "wix_id":  "cb390c_4eafc6ab00d04ababb8dd67213b8e45d~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_13.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  5682409,
+        "wix_id":  "cb390c_4f12de1fadde47bab03eb156ff2a5fca~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_14.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  7840915,
+        "wix_id":  "cb390c_597c6e523a034429b5fb661f92eecf27~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_15.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  5992685,
+        "wix_id":  "cb390c_5a0052ec904646cd81d368aa6360b78e~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_16.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  10514432,
+        "wix_id":  "cb390c_677cf38abb614119a6f3fe00efa65502~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_17.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  5247258,
+        "wix_id":  "cb390c_68cc1746b8734e3a8b6caae488de9a37~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_18.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  5901759,
+        "wix_id":  "cb390c_6ed8530c5ea946fe93f8d2dfb809b1c2~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_19.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  5033111,
+        "wix_id":  "cb390c_7921a5bd5e08431d8dde1faad85d7a37~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_20.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  6551555,
+        "wix_id":  "cb390c_7c48bfacc3c44e38ba54083aaa5418c7~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_21.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  8896512,
+        "wix_id":  "cb390c_80284ec666d544b6940b6d20b636ed02~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_22.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  6146565,
+        "wix_id":  "cb390c_898f6bbaf26543c9bb1eaf57b1865cad~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_23.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  4965660,
+        "wix_id":  "cb390c_924337a6237b442b8ecf5448ab91883a~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_24.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  5100118,
+        "wix_id":  "cb390c_94b82b3f12324f4680b4ad8a43341446~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_25.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  5082057,
+        "wix_id":  "cb390c_992368656ab540a3857787d12bca74ba~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_26.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  6315145,
+        "wix_id":  "cb390c_a414e21535c645e0aef6a612dac5e377~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_27.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  442671,
+        "wix_id":  "cb390c_a9e1ad0c0cf64dc894d6fd76da5cf86d~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_28.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  10113024,
+        "wix_id":  "cb390c_aa3c65918d8642f3b9313b7482dd581d~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_29.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  2576250,
+        "wix_id":  "cb390c_c5152c9fe9524384b136c8f47d7c64cb~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_30.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  11739136,
+        "wix_id":  "cb390c_c890bf450e5b456aa48a75a982f8d0de~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_31.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  9347072,
+        "wix_id":  "cb390c_d50011ecb447431e8a7f06bb687325b1~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_32.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  4672750,
+        "wix_id":  "cb390c_e25c88e1ff6544c2b192991cb7ecd014~mv2.jpg"
+    },
+    {
+        "file":  "beforeafter_33.jpg",
+        "source_page":  "beforeafter",
+        "bytes":  5385628,
+        "wix_id":  "cb390c_e92a1d7b8a234db29638c2f3cafa18a0~mv2.jpg"
+    },
+    {
+        "file":  "gallery_01.jpg",
+        "source_page":  "gallery",
+        "bytes":  7261965,
+        "wix_id":  "cb390c_22962013a56d47a0bffb703e045490ca~mv2.jpg"
+    },
+    {
+        "file":  "gallery_02.jpg",
+        "source_page":  "gallery",
+        "bytes":  6939834,
+        "wix_id":  "cb390c_249bbd544d05442b89c51c0f998f3c34~mv2.jpg"
+    },
+    {
+        "file":  "gallery_03.jpg",
+        "source_page":  "gallery",
+        "bytes":  7147004,
+        "wix_id":  "cb390c_27d66b616fd646d9ab5cf355d58b0bc5~mv2.jpg"
+    },
+    {
+        "file":  "gallery_04.jpg",
+        "source_page":  "gallery",
+        "bytes":  7032249,
+        "wix_id":  "cb390c_46cdc3ac340b4bd6ac8232e0f29b22e1~mv2.jpg"
+    },
+    {
+        "file":  "gallery_05.jpg",
+        "source_page":  "gallery",
+        "bytes":  7218902,
+        "wix_id":  "cb390c_5cb849badd51411089d2b07b3a704e0e~mv2.jpg"
+    },
+    {
+        "file":  "gallery_06.jpg",
+        "source_page":  "gallery",
+        "bytes":  6978320,
+        "wix_id":  "cb390c_6def01f200ff452f8c58d8520dd4f73d~mv2.jpg"
+    },
+    {
+        "file":  "gallery_07.jpg",
+        "source_page":  "gallery",
+        "bytes":  7626875,
+        "wix_id":  "cb390c_6ff936679ad646ccb40c1911250fee76~mv2.jpg"
+    },
+    {
+        "file":  "gallery_08.jpg",
+        "source_page":  "gallery",
+        "bytes":  7639084,
+        "wix_id":  "cb390c_78002a602d124b1cb7705ce02591cbb6~mv2.jpg"
+    },
+    {
+        "file":  "gallery_09.jpg",
+        "source_page":  "gallery",
+        "bytes":  7278434,
+        "wix_id":  "cb390c_7e1548a0b876407e968647c574ccb60b~mv2.jpg"
+    },
+    {
+        "file":  "gallery_10.jpg",
+        "source_page":  "gallery",
+        "bytes":  7066240,
+        "wix_id":  "cb390c_87dc3b3974ba4170b2305ab68eb0d30e~mv2.jpg"
+    },
+    {
+        "file":  "gallery_11.jpg",
+        "source_page":  "gallery",
+        "bytes":  7306242,
+        "wix_id":  "cb390c_bacdd553c8314874a1477fa534b88835~mv2.jpg"
+    },
+    {
+        "file":  "gallery_12.jpg",
+        "source_page":  "gallery",
+        "bytes":  7361081,
+        "wix_id":  "cb390c_cdb1f5e178c545e7a0a5455b87d1ceb1~mv2.jpg"
+    },
+    {
+        "file":  "gallery_13.jpg",
+        "source_page":  "gallery",
+        "bytes":  7457029,
+        "wix_id":  "cb390c_e5482bdcf18848e888268d870eb149ae~mv2.jpg"
+    },
+    {
+        "file":  "gallery_14.jpg",
+        "source_page":  "gallery",
+        "bytes":  7549100,
+        "wix_id":  "cb390c_eda0b60132464e48bbdd34bd19364231~mv2.jpg"
+    },
+    {
+        "file":  "gallery_15.jpg",
+        "source_page":  "gallery",
+        "bytes":  7639693,
+        "wix_id":  "cb390c_f94f7aa657c64beaa6ddffd8530cbdbe~mv2.jpg"
+    },
+    {
+        "file":  "roofing_01.jpg",
+        "source_page":  "roofing",
+        "bytes":  2649730,
+        "wix_id":  "cb390c_2c232617f5c842a581666238b8ccb020~mv2.jpg"
+    },
+    {
+        "file":  "roofing_02.jpg",
+        "source_page":  "roofing",
+        "bytes":  420019,
+        "wix_id":  "cb390c_ae57f005c24a4420b0fa80c299d3795a~mv2.jpg"
+    }
+]
