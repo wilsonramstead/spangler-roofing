@@ -233,7 +233,7 @@ section{padding:clamp(60px,8.5vw,116px) 0}
 
 /* ---------- Trust bar ---------- */
 .trustbar{background:var(--paper);border-bottom:1px solid var(--line)}
-.trustbar .wrap{display:grid;grid-template-columns:repeat(5,1fr);gap:0}
+.trustbar .wrap{display:grid;grid-template-columns:repeat(6,1fr);gap:0}
 .trust-item{
   display:flex;align-items:center;gap:12px;padding:26px 22px;
   border-right:1px solid var(--line);
