@@ -462,6 +462,48 @@ section{padding:clamp(60px,8.5vw,116px) 0}
 .feature-card h3{color:#fff}
 .feature-card p{color:#c8d2e4;font-size:.96rem}
 
+/* ---------- Video strip (homepage reel) ---------- */
+.video-band{
+  background:linear-gradient(115deg,var(--navy-deep) 0%,var(--navy) 55%,var(--navy-soft) 130%);
+  color:#fff;
+  padding:clamp(40px,5.5vw,72px) 0;
+  border-bottom:4px solid var(--brick);
+}
+.vb-grid{
+  display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.35fr);
+  gap:clamp(28px,4.5vw,64px);align-items:center;
+}
+.vb-grid>*{min-width:0}
+.video-band .eyebrow{margin-bottom:12px}
+.video-band h2{color:#fff;font-size:clamp(1.7rem,3vw,2.4rem)}
+.video-band .lead{color:#c0cbe0;font-size:clamp(.98rem,1.4vw,1.08rem);margin-top:14px}
+.vb-cta{margin-top:22px}
+.video-frame{
+  border-radius:var(--radius-lg);overflow:hidden;background:#000;
+  border:1px solid rgba(255,255,255,.16);box-shadow:var(--shadow-lg);
+}
+.video-frame video{width:100%;display:block}
+@media(max-width:860px){
+  .vb-grid{grid-template-columns:1fr;gap:24px}
+  .video-band{padding:44px 0}
+}
+
+/* ---------- Featured project (Our Work) ---------- */
+.featured-project{background:var(--sand-2);border-bottom:1px solid var(--line)}
+.featured-project .g-item::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(to top,rgba(13,27,51,.38),rgba(13,27,51,0) 46%);
+  opacity:0;transition:opacity .25s ease;
+}
+.featured-project .g-item:hover::after{opacity:1}
+.featured-project .g-item::before{
+  content:"";position:absolute;right:12px;bottom:12px;z-index:2;width:34px;height:34px;
+  border-radius:10px;background:rgba(9,18,36,.62) url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>') center/16px 16px no-repeat;
+  opacity:0;transform:translateY(6px);transition:opacity .25s ease,transform .25s ease;
+  pointer-events:none;
+}
+.featured-project .g-item:hover::before{opacity:1;transform:none}
+
 /* ---------- Gallery ---------- */
 .gallery-grid{columns:3 300px;column-gap:16px}
 .gallery-grid .g-item{
