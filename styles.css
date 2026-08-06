@@ -489,8 +489,12 @@ section{padding:clamp(60px,8.5vw,116px) 0}
   border:1px solid rgba(255,255,255,.16);box-shadow:var(--shadow-lg);
 }
 .video-frame video{width:100%;display:block}
+.vb-flip .vb-grid{grid-template-columns:minmax(0,1.35fr) minmax(0,.85fr)}
+.vb-gap{height:12px;background:#fff}
+.fb-embed{position:relative;aspect-ratio:16/9}
+.fb-embed iframe{position:absolute;inset:0;width:100%;height:100%}
 @media(max-width:860px){
-  .vb-grid{grid-template-columns:1fr;gap:24px}
+  .vb-grid,.vb-flip .vb-grid{grid-template-columns:1fr;gap:24px}
   .video-band{padding:44px 0}
 }
 
