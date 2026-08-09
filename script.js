@@ -42,11 +42,13 @@
     });
   }
 
-  /* ---------- Scroll reveal (IntersectionObserver) ---------- */
-  var revealEls = document.querySelectorAll(".reveal");
+  /* ---------- Scroll reveal (IntersectionObserver, one-shot) ---------- */
+  var revealEls = Array.prototype.slice.call(document.querySelectorAll(".reveal"));
   if (reduceMotion || !("IntersectionObserver" in window)) {
     revealEls.forEach(function (el) { el.classList.add("in"); });
   } else {
+    /* rootMargin bottom +12% triggers each element just before it scrolls
+       into view, so it settles as it rises — matches wilsoninnovations.net */
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
         if (entry.isIntersecting) {
@@ -54,8 +56,28 @@
           io.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
+    }, { threshold: 0, rootMargin: "0px 0px 12% 0px" });
     revealEls.forEach(function (el) { io.observe(el); });
+
+    /* safety net: fast momentum scrolling on phones can outrun the observer —
+       anything already within the viewport gets revealed on the next scroll tick */
+    var sweepTimer = null;
+    var sweep = function () {
+      sweepTimer = null;
+      var vh = window.innerHeight;
+      revealEls = revealEls.filter(function (el) {
+        if (el.classList.contains("in")) return false;
+        if (el.getBoundingClientRect().top < vh) {
+          el.classList.add("in");
+          io.unobserve(el);
+          return false;
+        }
+        return true;
+      });
+    };
+    window.addEventListener("scroll", function () {
+      if (!sweepTimer) sweepTimer = setTimeout(sweep, 90);
+    }, { passive: true });
   }
 
   /* ---------- FAQ accordion ---------- */
