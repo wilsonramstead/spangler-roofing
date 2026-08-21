@@ -370,7 +370,7 @@ section{padding:clamp(60px,8.5vw,116px) 0}
 .testimonials{background:var(--navy);color:#fff;position:relative;overflow:hidden}
 .testimonials h2{color:#fff}
 .testimonials .lead{color:#c0cbe0}
-.reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.reviews-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
 @media(max-width:900px){.reviews-grid{grid-template-columns:1fr}}
 .review-card{
   position:relative;
