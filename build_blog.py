@@ -114,6 +114,10 @@ def fix_root(name, path):
     return s
 
 index = fix_root("index.html", "")
+VIEWPORT = '<meta name="viewport" content="width=device-width, initial-scale=1">'
+GSC = '<meta name="google-site-verification" content="LVJE2R671DYtGIgyTAz19Aj_xmze1OFc9Zw-BuwhKtE">'
+index = index.replace(VIEWPORT, VIEWPORT + "\n" + GSC, 1)
+assert "google-site-verification" in index
 # richer LocalBusiness data
 index = index.replace('"name": "Spangler Roofing LLC",', '"name": "Spangler Roofing LLC",\n  "@id": "%s/#business",\n  "url": "%s/",\n  "image": "%s/assets/og-preview.jpg",\n  "priceRange": "$$",\n  "hasMap": "%s",\n  "sameAs": ["%s"],\n  "geo": {"@type": "GeoCoordinates", "latitude": 27.8242016, "longitude": -82.7176493},' % (SITE, SITE, SITE, MAPS, MAPS), 1)
 index = index.replace('"areaServed": ["St. Petersburg, FL", "Pinellas County, FL", "Tampa Bay, FL"],',
