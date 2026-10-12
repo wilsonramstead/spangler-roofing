@@ -1,5 +1,5 @@
 /* ============================================================
-   Spangler Roofing — demo site scripts
+   Spangler Roofing — site scripts
    Vanilla JS, no dependencies. Runs from file://.
    ============================================================ */
 (function () {
@@ -110,27 +110,52 @@
     });
   });
 
-  /* ---------- Estimate form (DEMO ONLY) ----------
-     Demo mode: we do NOT submit anywhere. We show a friendly inline
-     notice and surface the phone number.
-     TO GO LIVE: wire this form to a form service (e.g. Formspree,
-     Netlify Forms, or a backend endpoint) — set the <form> action/method
-     or POST the FormData below, then remove the preventDefault demo block.
+  /* ---------- Estimate form -> email (mailto) ----------
+     Builds a pre-filled email to Spangler Roofing in the visitor's own mail
+     app. Name and phone are required. The notice explains what happened and
+     gives the phone number and address as a fallback if no mail app opened.
   ------------------------------------------------------------------ */
   var estForm = document.getElementById("estimate-form");
   if (estForm) {
+    var TO = "spanglerroof@gmail.com";
     estForm.addEventListener("submit", function (e) {
       e.preventDefault();
-      // var data = new FormData(estForm); // <-- send this to your form service on launch
+      var val = function (id) { var el = document.getElementById(id); return el ? el.value.trim() : ""; };
+      var name = val("name"), phone = val("phone");
+      var err = document.getElementById("form-error");
+      ["name", "phone"].forEach(function (id) {
+        var el = document.getElementById(id);
+        if (el) el.setAttribute("aria-invalid", val(id) ? "false" : "true");
+      });
+      if (!name || !phone) {
+        if (err) { err.hidden = false; }
+        (document.getElementById(!name ? "name" : "phone") || estForm).focus();
+        return;
+      }
+      if (err) err.hidden = true;
+      var lines = [
+        "Name: " + name,
+        "Phone: " + phone,
+        "Email: " + (val("email") || "-"),
+        "Property address: " + (val("address") || "-"),
+        "What I need: " + (val("service") || "-"),
+        "",
+        "About my roof:",
+        val("message") || "-",
+        "",
+        "(Sent from the estimate form on spanglerroofingllc.com)"
+      ];
+      var subject = "Free estimate request - " + name;
+      var href = "mailto:" + TO + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(lines.join("\r\n"));
       var notice = document.getElementById("form-notice");
       if (notice) {
         notice.classList.add("show");
         notice.setAttribute("role", "status");
-        notice.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "center" });
       }
-      estForm.querySelectorAll("input,textarea,select,button").forEach(function (el) {
-        if (el.type !== "button") el.setAttribute("aria-disabled", "true");
-      });
+      window.location.href = href;
+      if (notice) setTimeout(function () {
+        notice.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "center" });
+      }, 300);
     });
   }
 

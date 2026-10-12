@@ -124,8 +124,23 @@ index = index.replace('"areaServed": ["St. Petersburg, FL", "Pinellas County, FL
   '"areaServed": ["St. Petersburg, FL", "Pinellas County, FL", "Clearwater, FL", "Largo, FL", "Seminole, FL", "Pinellas Park, FL", "Treasure Island, FL", "St. Pete Beach, FL", "Gulfport, FL", "Dunedin, FL", "Palm Harbor, FL", "Tampa, FL"],')
 assert '"@id"' in index and "Gulfport" in index
 (ROOT / "index.html").write_text(index, encoding="utf-8")
-for name in ["roofing.html", "gallery.html", "estimate.html"]:
+for name in ["roofing.html", "gallery.html"]:
     (ROOT / name).write_text(fix_root(name, name), encoding="utf-8")
+est = fix_root("estimate.html", "estimate.html")
+OLD_NOTICE = est[est.index('<!-- Demo-mode confirmation'):est.index('</form>', est.index('<!-- Demo-mode confirmation'))]
+NEW_NOTICE = """<p class="form-error" id="form-error" role="alert" hidden>Please add your name and phone number so we can reach you.</p>
+          <!-- Shown after submit: the request opens as an email in the visitor's mail app -->
+          <div class="form-notice" id="form-notice" aria-live="polite">
+            <strong><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>Almost done: just press Send</strong>
+            <p>Your request opened as an email to Spangler Roofing in your mail app. Press <b>Send</b> and we'll get back to you. If no email opened, call or text <a href="tel:+17273973800">(727) 397-3800</a> or email <a href="mailto:spanglerroof@gmail.com">spanglerroof@gmail.com</a>.</p>
+          </div>
+        """
+est = est.replace(OLD_NOTICE, NEW_NOTICE)
+est = est.replace("<!-- Estimate form (DEMO ONLY — see script.js for go-live wiring) -->", "<!-- Estimate form: opens a pre-filled email to spanglerroof@gmail.com (script.js) -->")
+est = est.replace('<p class="form-note">By submitting, you agree we may contact you about your estimate. We never sell your info.</p>',
+                  '<p class="form-note">This opens an email to us with your details filled in. We never sell your info.</p>')
+assert "Demo mode" not in est and 'id="form-error"' in est
+(ROOT / "estimate.html").write_text(est, encoding="utf-8")
 
 # ------------------------------------------------------------------ shell for blog pages
 shell_top = OLD[OLD.index('<a class="skip-link"'):OLD.index('<main id="main">')]
@@ -148,6 +163,8 @@ POST_CSS = """
 .bp-figure figcaption{font-size:.85rem;color:var(--muted);margin-top:8px}
 .bp-body a{color:var(--brick);font-weight:700;text-decoration:underline;text-underline-offset:3px}
 .bp-body strong,.bp-body em{color:var(--navy)}
+.form-error{margin-top:12px;padding:10px 14px;border-radius:10px;background:#fdecea;color:#8a1f12;font-weight:700;font-size:.9rem}
+.field input[aria-invalid=\"true\"]{border-color:#c0392b}
 .related{max-width:820px;margin:0 auto;padding:10px 0 56px}
 .related h2{color:var(--navy);font-size:1.3rem;margin-bottom:14px}
 .related-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}

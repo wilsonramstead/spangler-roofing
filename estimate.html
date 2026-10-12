@@ -151,7 +151,7 @@
         </figure>
       </div>
 
-      <!-- Estimate form (DEMO ONLY — see script.js for go-live wiring) -->
+      <!-- Estimate form: opens a pre-filled email to spanglerroof@gmail.com (script.js) -->
       <div class="form-card reveal d1" id="estimate-form-card">
         <h3>Request your free estimate</h3>
         <p class="fc-sub">Fill this out and we'll be in touch. Prefer to talk? Call <a href="tel:+17273973800" style="color:var(--brick);font-weight:800">(727) 397-3800</a>.</p>
@@ -191,12 +191,13 @@
             <textarea id="message" name="message" placeholder="Roof type, age, what you're seeing (leaks, missing shingles, storm damage)…"></textarea>
           </div>
           <button type="submit" class="btn btn-primary btn-lg form-submit">Send my request</button>
-          <p class="form-note">By submitting, you agree we may contact you about your estimate. We never sell your info.</p>
+          <p class="form-note">This opens an email to us with your details filled in. We never sell your info.</p>
 
-          <!-- Demo-mode confirmation (shown by script.js; no data is sent) -->
+          <p class="form-error" id="form-error" role="alert" hidden>Please add your name and phone number so we can reach you.</p>
+          <!-- Shown after submit: the request opens as an email in the visitor's mail app -->
           <div class="form-notice" id="form-notice" aria-live="polite">
-            <strong><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>Demo mode — goes live with the site</strong>
-            <p>This form is part of a preview and isn't connected yet. On launch it will deliver straight to Spangler Roofing. In the meantime, call or text <a href="tel:+17273973800">(727) 397-3800</a> and we'll get right on it.</p>
+            <strong><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>Almost done: just press Send</strong>
+            <p>Your request opened as an email to Spangler Roofing in your mail app. Press <b>Send</b> and we'll get back to you. If no email opened, call or text <a href="tel:+17273973800">(727) 397-3800</a> or email <a href="mailto:spanglerroof@gmail.com">spanglerroof@gmail.com</a>.</p>
           </div>
         </form>
       </div>

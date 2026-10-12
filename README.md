@@ -47,4 +47,4 @@ _Website by Wilson Innovations — https://wilsoninnovations.net_
 - Added robots.txt, sitemap.xml and a 404 page that redirects old Wix-style paths (/blog, /post/...) to the right section.
 - Google rating updated to 4.7 / 115.
 - Rebuild everything with `python build_blog.py` (reads the `pre-seo-blog` git tag as its source).
-- STILL OPEN: the estimate form is demo-only (shows a "call us" notice, sends nothing). Needs a form service before it can deliver leads.
+- Estimate form: opens a pre-filled email to spanglerroof@gmail.com in the visitor's mail app (mailto, script.js). Name + phone required. Notice gives phone and email as fallback. Upgrade path if needed: Web3Forms or a Firebase function so it sends without a mail app.
