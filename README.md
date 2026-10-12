@@ -39,3 +39,12 @@ from disk (`file://`) or from any static host.
 - Google rating 4.7 (112 reviews) · Owners: Christian & Jessica
 
 _Website by Wilson Innovations — https://wilsoninnovations.net_
+
+## Oct 2026: blog split + SEO pass (live site)
+- `noindex` removed from every page (it had been left on since the demo stage). Each page now has a proper doctype/html/head, canonical URL, and Open Graph/Twitter tags on spanglerroofingllc.com.
+- Blog: every post has its own page at `blog/<slug>/` with its own title, description, BlogPosting + Breadcrumb structured data, and related-post links. `blog.html` is now the index. Old `blog.html#anchor` links redirect to the new pages.
+- Four new posts (Aug 19, Sep 3, Sep 17, Oct 6): Atlas Scotchgard algae shingles, clay vs. concrete tile, hurricane prep and recovery, El Nino rain and leaks. Text in `blog_new_posts.py`, photos from Unsplash.
+- Added robots.txt, sitemap.xml and a 404 page that redirects old Wix-style paths (/blog, /post/...) to the right section.
+- Google rating updated to 4.7 / 115.
+- Rebuild everything with `python build_blog.py` (reads the `pre-seo-blog` git tag as its source).
+- STILL OPEN: the estimate form is demo-only (shows a "call us" notice, sends nothing). Needs a form service before it can deliver leads.
