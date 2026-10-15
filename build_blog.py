@@ -304,5 +304,23 @@ nf = head("Page not found | Spangler Roofing", "This page has moved. Visit Spang
 nf += "</head>\n<body>\n" + nf_js + prefix_paths(shell_top, "/") + nf_main + prefix_paths(shell_bot, "/").rstrip() + "\n</body>\n</html>\n"
 (ROOT / "404.html").write_text(nf, encoding="utf-8")
 
+# ------------------------------------------------------------------ old-URL redirect stubs
+from redirects import REDIRECTS
+import shutil
+for old, target in REDIRECTS.items():
+    dest = SITE + "/" + target
+    d = ROOT / old
+    if d.exists() and d.is_dir(): shutil.rmtree(d)
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "index.html").write_text(f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Moved | Spangler Roofing</title>
+<link rel="canonical" href="{dest}">
+<meta http-equiv="refresh" content="0; url={dest}">
+<script>location.replace("{dest}");</script>
+</head><body><p>This page has moved to <a href="{dest}">{dest}</a>.</p></body></html>
+""", encoding="utf-8")
+print(len(REDIRECTS), "redirect stubs")
+
 print(f"{len(posts)} posts:")
 for p in posts: print(" ", p["date"], p["slug"])
