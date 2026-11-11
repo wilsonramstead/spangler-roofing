@@ -273,7 +273,7 @@ blog += "</head>\n<body>\n" + redirect_js + shell_top + index_main + cta_band + 
 
 # ------------------------------------------------------------------ robots, sitemap, 404
 (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n", encoding="utf-8")
-urls = [("", "2026-10-12", "1.0"), ("roofing.html", "2026-10-12", "0.9"), ("gallery.html", "2026-10-12", "0.7"),
+urls = [("", "2026-10-12", "1.0"), ("roofing.html", "2026-10-12", "0.9"), ("gallery.html", "2026-11-10", "0.7"),
         ("estimate.html", "2026-10-12", "0.8"), ("blog.html", posts[0]["date"], "0.7")]
 urls += [(f'blog/{p["slug"]}/', p["date"], "0.6") for p in posts]
 sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'

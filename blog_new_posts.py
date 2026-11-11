@@ -211,4 +211,115 @@ NEW_POSTS = [
 <p>Please don't wait for the rain to stop. Leaks don't stay small, and every wet day gives the water more time to spread. If it's bad, we can get the roof tarped until it's dry enough to make a proper repair.</p>
 """
 },
+{
+"slug": "florida-roof-age-insurance-15-year-rule",
+"date": "2026-10-28",
+"title": "Is Your Roof Too Old for Insurance? Florida's 15-Year Roof Rule, Explained",
+"short": "Is Your Roof Too Old for Insurance?",
+"meta": "Florida insurers and roof age: what the 15-year roof rule says, how a roof inspection can keep your policy, and how a wind mitigation report can lower your premium. Spangler Roofing, St. Petersburg FL.",
+"excerpt": "A letter from your insurance company about your roof's age is one of the most stressful things to find in the mailbox. Here's what Florida law actually says, and what you can do before you assume you need a new roof.",
+"hero": "blog_insurance_hero.jpg",
+"hero_alt": "A roofer standing on an aging shingle roof of a brick home",
+"cta_text": "Got a letter from your insurance company about your roof?",
+"cta_href": "estimate.html", "cta_btn": "Schedule a roof inspection",
+"related": ["hurricane-clips-florida-roofs", "florida-roof-maintenance-saves-money"],
+"body": """
+<p>It's one of the most common calls we get, and one of the most stressful for the person calling. A letter shows up from the insurance company: your roof is too old, and your policy won't be renewed unless it's replaced. Or a new insurer won't even write a policy until they know how old the roof is.</p>
+<p>Before you assume you need a whole new roof, it helps to know what Florida law actually says, and what options you have.</p>
+
+<h3>The 15-year rule</h3>
+<p>In 2022, Florida changed the law on roof age and homeowners insurance. In plain terms:</p>
+<ul>
+  <li><strong>If your roof is less than 15 years old,</strong> an insurer can't refuse to write or renew your homeowners policy just because of the roof's age.</li>
+  <li><strong>If your roof is 15 years or older,</strong> the insurer has to let you have it inspected before refusing coverage based on age alone. If the inspection shows the roof has at least five years of useful life left, they can't turn you down for its age alone.</li>
+</ul>
+<p>That second point is the one most people don't know about. An older roof isn't automatically a dead roof. Plenty of well-installed, well-maintained roofs in Pinellas County have years left in them.</p>
+<p>A few honest caveats: insurers can still decline coverage for other reasons, like actual damage or a roof in poor condition, and the details of every policy are different. Your insurance agent is the right person to confirm exactly what applies to you. What we can do is tell you what shape your roof is really in.</p>
+
+<figure class="bp-figure">
+  <img src="assets/blog_insurance_inspect.jpg" alt="Two roofers in safety harnesses measuring and checking a shingle roof" loading="lazy" width="1600" height="900">
+  <figcaption>An inspection tells you, and your insurer, what condition the roof is actually in, not just how old it is.</figcaption>
+</figure>
+
+<h3>What an inspection looks at</h3>
+<p>When we inspect a roof, we're looking at the things that actually decide how much life it has left:</p>
+<ul>
+  <li>Missing, cracked, curling or lifted shingles, or cracked and slipped tiles</li>
+  <li>Granule loss on shingles, which is how a roof shows its age in our sun</li>
+  <li>Soft spots in the decking underneath</li>
+  <li>Flashing around chimneys, vents, skylights and walls, where most leaks start</li>
+  <li>Signs of past leaks in the attic</li>
+</ul>
+<p>Sometimes the answer is good news. Sometimes it's a repair or two that buys the roof real time. And sometimes it's an honest "this roof is done." Either way, you'll know where you stand instead of guessing.</p>
+
+<h3>The four-point inspection</h3>
+<p>If your home is older, your insurer may ask for a four-point inspection. It covers four things: the roof, the electrical, the plumbing, and the heating and air. The roof section is often the one that decides whether the policy goes through, so it's worth knowing your roof's condition before that inspector shows up.</p>
+
+<h3>The wind mitigation report: the one that can save you money</h3>
+<p>This is the part a lot of homeowners miss. A wind mitigation inspection documents the features of your home that help it hold up in a hurricane, and Florida insurers are required to offer discounts on the windstorm portion of your premium for them. A lot of those features are about the roof:</p>
+<ul>
+  <li><strong>Roof covering:</strong> whether it meets current Florida Building Code</li>
+  <li><strong>Roof deck attachment:</strong> how the plywood is nailed down</li>
+  <li><strong>Roof-to-wall attachment:</strong> clips or straps tying the roof to the walls (we wrote a whole post on <a href="blog/hurricane-clips-florida-roofs/">hurricane clips</a>)</li>
+  <li><strong>Roof shape:</strong> hip roofs generally do better in high winds than gable roofs</li>
+  <li><strong>Secondary water resistance:</strong> a sealed layer under the roof covering that keeps water out if the shingles or tiles get torn off</li>
+</ul>
+<p>If you replace your roof, ask about these before the job starts. Several of them can be upgraded during a reroof for far less than it would cost to do later, and a new wind mitigation report afterward is how you get credit for them on your premium.</p>
+
+<h3>If you do need a new roof</h3>
+<p>Then the best thing you can do is plan it instead of rushing it. Get your insurer's deadline in writing, get a real estimate, and give yourself enough time to schedule without paying rush pricing. Once the new roof is on, send your insurer the permit and completion paperwork, and get an updated wind mitigation report.</p>
+
+<h3>Don't panic, get the facts</h3>
+<p>A roof-age letter feels like an emergency, but you usually have more options than it seems. Call us before you sign anything. We'll come out, inspect the roof, and tell you honestly whether it's got years left, needs a repair, or is due. We've been doing this in St. Pete since 1989, and we'd rather give you a straight answer than sell you a roof you don't need yet.</p>
+"""
+},
+{
+"slug": "best-time-to-replace-roof-tampa-bay",
+"date": "2026-11-10",
+"title": "Why Late Fall and Winter Is the Best Time to Replace Your Roof in Tampa Bay",
+"short": "The Best Time to Replace Your Roof",
+"meta": "Why November through spring is the smartest time to replace a roof in St. Petersburg and Tampa Bay: dry weather, no hurricanes, easier scheduling, and a new roof ready before next storm season. Spangler Roofing.",
+"excerpt": "Hurricane season ends November 30, the rain finally lets up, and roofers' schedules open up. If your roof is on its last legs, the next few months are the best window you'll get all year.",
+"hero": "blog_winter_hero.jpg",
+"hero_alt": "A roofer in a safety harness on a shingle roof under a clear blue sky",
+"cta_text": "Want your new roof on before next hurricane season?",
+"cta_href": "estimate.html", "cta_btn": "Get my free estimate",
+"related": ["hurricane-roof-prep-and-storm-damage-recovery", "florida-roof-age-insurance-15-year-rule"],
+"body": """
+<p>Most people replace their roof when they have to: right after a leak, right after a storm, or right after a letter from the insurance company. But if you know your roof is getting near the end, there's a best time of year to do it here in Tampa Bay, and it's right now.</p>
+
+<h3>1. It's the dry season</h3>
+<p>From roughly November through spring, the afternoon thunderstorms that hit almost daily all summer mostly go away. That matters more than people think. A reroof means tearing off the old roof down to the decking, and every day that decking is open is a day you want clear skies. Dry weather means fewer rain delays, less waiting, and a smoother job from tear-off to the last shingle.</p>
+
+<h3>2. Hurricane season is over</h3>
+<p>Atlantic hurricane season officially ends November 30 and doesn't start again until June 1. Replacing your roof in the off-season means the job gets done without a storm in the forecast, and you go into next season with a brand-new roof instead of crossing your fingers on an old one.</p>
+
+<figure class="bp-figure">
+  <img src="assets/blog_winter_crew.jpg" alt="A roofer carrying bundles of new shingles across a roof on a clear day" loading="lazy" width="1600" height="900">
+  <figcaption>Clear, dry days make for the cleanest tear-offs and installs.</figcaption>
+</figure>
+
+<h3>3. Scheduling is easier</h3>
+<p>After a storm, every roofer in Florida is booked solid and homeowners wait weeks. In spring, a lot of people who put it off all winter suddenly call at once. Late fall and winter is the quieter stretch in between. You have a better shot at the date you want, and more time to talk through your options without feeling rushed.</p>
+
+<h3>4. It's easier on your house and your crew</h3>
+<p>Cooler temperatures make for safer, steadier work on the roof. And if you're switching materials, say from shingles to metal or tile, the extra planning time lets you make that decision carefully instead of under pressure.</p>
+
+<h3>5. It can help with your insurance</h3>
+<p>A new roof built to current Florida code can make your home easier to insure, and an updated wind mitigation report afterward may lower the windstorm part of your premium. Getting the roof done before your next renewal means you can send your insurer the paperwork when it counts. We covered this in more detail in our post on <a href="blog/florida-roof-age-insurance-15-year-rule/">roof age and insurance in Florida</a>.</p>
+
+<h3>Signs your roof might be due</h3>
+<ul>
+  <li>The roof is around 15 to 20 years old (shingles) or the tile underlayment has never been replaced</li>
+  <li>Shingles are curling, cracking or missing, or you're finding granules in the gutters</li>
+  <li>You've had more than one leak, or stains on the ceiling keep coming back</li>
+  <li>The roof made it through a storm, but you're not sure it'll make it through another one</li>
+  <li>Your insurance company is asking about the roof's age or condition</li>
+</ul>
+
+<h3>What to expect</h3>
+<p>It starts with a free inspection and estimate. If a replacement makes sense, we pull the permit, schedule the job, and handle everything from tear-off to final cleanup, including a magnetic nail sweep of your yard and driveway. Most homes are done in just a few days once work starts.</p>
+<p>If your roof has been on your mind, this is the window to take care of it. Call us and we'll come take a look. If it still has life left, we'll tell you that too.</p>
+"""
+},
 ]
