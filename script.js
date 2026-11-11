@@ -205,6 +205,19 @@
     });
   }
 
+  /* ---------- Gallery "See more" ---------- */
+  document.querySelectorAll("[data-see-more]").forEach(function (btn) {
+    var grid = document.getElementById(btn.getAttribute("data-see-more"));
+    if (!grid) return;
+    var label = btn.textContent;
+    btn.addEventListener("click", function () {
+      var open = grid.classList.toggle("expanded");
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+      btn.textContent = open ? "Show fewer photos" : label;
+      if (!open) grid.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+
   /* ---------- Footer year ---------- */
   var yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = new Date().getFullYear();
